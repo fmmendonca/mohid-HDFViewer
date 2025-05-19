@@ -1,21 +1,18 @@
 # mohid-HDFView
 A set of Python scripts to plot MOHID outputs in order to avoid using Bentley OpenFlows FLOOD (MOHID Studio replacement).
-Author       : Fernando Mendonça
-Organization : CIMA UAlg
+
+Author       : Fernando Mendonça  
+Organization : CIMA UAlg  
 Contact      : hidrotec@ualg.pt
 
-****************************************************************************
-    
-    This tutorial asumes that the user knows how to
-    work with Python and Conda environments.
+---
 
-****************************************************************************
+This is a package containing three programs:  
+1. p_plotHDF.py: plots fields from a MOHID HDF5 file.  
+2. p_plotTS.py: plots charts from a MOHID time series file.  
+3. p_plotLAGR.py: plots the lagrangian particles of a MOHID HDF5 file.
 
-This is a package of two programs:
-    1. p_plotHDF.py -> plots fields from a MOHID HDF5 file.
-    2. p_plotTS.py -> plots charts from a MOHID time series file.
-    3. p_plotLAGR.py -> plots the lagrangian particles of a MOHID HDF5 file.
-
+## Requirements
 The programs require the following external Python modules:
     ○ h5py
     ○ imageio
@@ -111,3 +108,5 @@ List of inputs:
     ○ vmax, vmin: maximum and minimum color scale values.
     ○ timestr: time string format used to write
         the date and time of each field.
+
+![cima-logo](https://cima-somathredds.ualg.pt/thredds/fileServer/info/cima-logo.png)
