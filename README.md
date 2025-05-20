@@ -1,6 +1,6 @@
 # mohid-HDFView
 Isto foi editado no VSCode  
-Segunda linha editada no VSCode
+Segunda linha editada no VSCode  
 A set of Python scripts to plot MOHID outputs in order to avoid using Bentley OpenFlows FLOOD (MOHID Studio replacement).
 
 Author       : Fernando Mendonça  
