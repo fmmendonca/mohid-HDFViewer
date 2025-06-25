@@ -1,4 +1,4 @@
-# mohid-HDFView
+# mohid-HDFViewer
 Isto foi editado no VSCode  
 Segunda linha editada no VSCode  
 A set of Python scripts to plot MOHID outputs in order to avoid using Bentley OpenFlows FLOOD (MOHID Studio replacement).
@@ -14,7 +14,7 @@ This is a package containing three programs:
 2. p_plotTS.py: plots charts from a MOHID time series file.  
 3. p_plotLAGR.py: plots the lagrangian particles of a MOHID HDF5 file.
 
-## Requirements
+# Requirements
 The programs require the following external Python modules:
     ○ h5py
     ○ imageio
