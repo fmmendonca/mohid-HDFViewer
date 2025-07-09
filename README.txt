@@ -4,7 +4,6 @@
 ****************************************************************************
 Author       : Fernando Mendonça
 Organization : CIMA UAlg
-Contact      : fmmendonca@ualg.pt
 ****************************************************************************
     
     This tutorial asumes that the user knows how to
