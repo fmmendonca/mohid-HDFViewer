@@ -2,7 +2,7 @@
 #
 # File    : m_readhdf.py
 #
-# Author  : Fernando Mendonça - fmmendonca@ualg.pt (CIMA UAlg)
+# Author  : Fernando Mendonça (CIMA UAlg)
 #
 # Created : 2025 04 25
 #
