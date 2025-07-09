@@ -1,0 +1,15 @@
+name: mohid
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - scipy
+  - numpy
+  - pandas
+  - h5py
+  - netCDF4
+  - matplotlib
+  - imageio
+  - pip:
+    - tqdm

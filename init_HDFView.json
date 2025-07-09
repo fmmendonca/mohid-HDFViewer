@@ -1,0 +1,36 @@
+{
+    "HDF": {
+        "hdf": "D:\\osse-analysis\\fm-database\\230210\\soma_L2-20230210T0000.hdf5",
+        "outdir": ".\\figures",
+        "prefix": "freerun-",
+
+        "field": "temperature",
+        "layer": 0,
+        "vectors": false,
+        "vec_zoom": 2,
+
+        "cmap": "jet",
+        "label": "Temperature [°C]",
+        "levels": 9,
+        "timestr": "%I:%M %p - %d %b"
+    },
+
+    "TS": {
+        "tsfile": ".\\73_76_1.srw"
+    },
+
+    "LAGR": {
+        "hdf": ".\\Lagrangian_3.hdf5",
+        "outdir": ".\\figures_lagr",
+
+        "origin_name": "WWTP",
+        "propertie_name": "fecal coliforms",
+
+        "cmap": "jet",
+        "label": "Concentration NMP/100ml",
+        "levels": 11,
+        "vmax": 10000,
+        "vmin": 0,
+        "timestr": "%I:%M %p - %d %b"
+    }
+}
